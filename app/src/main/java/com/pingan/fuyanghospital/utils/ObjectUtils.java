@@ -1,10 +1,5 @@
 package com.pingan.fuyanghospital.utils;
 
-/**
- * Object Utils
- *
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2011-10-24
- */
 public class ObjectUtils {
 
     private ObjectUtils() {

@@ -94,7 +94,7 @@ public class FileUtils {
      * @throws RuntimeException if an error occurs while operator FileWriter
      */
     public static boolean writeFile(String filePath, List<String> contentList, boolean append) {
-        if (ListUtils.isEmpty(contentList)) {
+        if (isEmpty(contentList)) {
             return false;
         }
 
@@ -539,5 +539,9 @@ public class FileUtils {
 
         File file = new File(path);
         return (file.exists() && file.isFile() ? file.length() : -1);
+    }
+
+    private static <V> boolean isEmpty(List<V> sourceList) {
+        return (sourceList == null || sourceList.size() == 0);
     }
 }

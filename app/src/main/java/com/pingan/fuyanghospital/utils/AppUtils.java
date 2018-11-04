@@ -35,7 +35,7 @@ public class AppUtils {
         int pid = android.os.Process.myPid();
         ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
         List<RunningAppProcessInfo> processInfoList = manager.getRunningAppProcesses();
-        if (ListUtils.isEmpty(processInfoList)) {
+        if (isEmpty(processInfoList)) {
             return false;
         }
 
@@ -67,5 +67,9 @@ public class AppUtils {
             }
         }
         return false;
+    }
+
+    private static <V> boolean isEmpty(List<V> sourceList) {
+        return (sourceList == null || sourceList.size() == 0);
     }
 }
