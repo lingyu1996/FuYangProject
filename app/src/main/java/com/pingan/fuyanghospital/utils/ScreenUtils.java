@@ -2,16 +2,6 @@ package com.pingan.fuyanghospital.utils;
 
 import android.content.Context;
 
-/**
- * ScreenUtils
- * <ul>
- * <strong>Convert between dp and sp</strong>
- * <li>{@link ScreenUtils#dpToPx(Context, float)}</li>
- * <li>{@link ScreenUtils#pxToDp(Context, float)}</li>
- * </ul>
- *
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2014-2-14
- */
 public class ScreenUtils {
 
     private ScreenUtils() {

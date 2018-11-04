@@ -8,14 +8,6 @@ import android.content.Context;
 
 import java.util.List;
 
-/**
- * AppUtils
- * <ul>
- * <li>{@link AppUtils#isNamedProcess(Context, String)}</li>
- * </ul>
- *
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2014-5-07
- */
 public class AppUtils {
 
     private AppUtils() {
