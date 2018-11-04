@@ -8,25 +8,6 @@ import android.graphics.drawable.Drawable;
 
 import java.io.ByteArrayOutputStream;
 
-/**
- * ImageUtils
- * <ul>
- * convert between Bitmap, byte array, Drawable
- * <li>{@link #bitmapToByte(Bitmap)}</li>
- * <li>{@link #bitmapToDrawable(Bitmap)}</li>
- * <li>{@link #byteToBitmap(byte[])}</li>
- * <li>{@link #byteToDrawable(byte[])}</li>
- * <li>{@link #drawableToBitmap(Drawable)}</li>
- * <li>{@link #drawableToByte(Drawable)}</li>
- * </ul>
- * <ul>
- * scale image
- * <li>{@link #scaleImageTo(Bitmap, int, int)}</li>
- * <li>{@link #scaleImage(Bitmap, float, float)}</li>
- * </ul>
- *
- * @author <a href="http://www.trinea.cn" target="_blank">Trinea</a> 2012-6-27
- */
 public class ImageUtils {
 
     private ImageUtils() {

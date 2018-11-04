@@ -3,12 +3,6 @@ package com.pingan.fuyanghospital.utils;
 import java.io.Closeable;
 import java.io.IOException;
 
-/**
- * IO utils
- *
- * @author Vladislav Bauer
- */
-
 public class IOUtils {
 
     private IOUtils() {
