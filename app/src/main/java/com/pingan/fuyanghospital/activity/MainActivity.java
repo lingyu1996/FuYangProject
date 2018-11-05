@@ -1,10 +1,9 @@
 package com.pingan.fuyanghospital.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.pingan.fuyanghospital.R;
-import com.pingan.fuyanghospital.constances.Constants;
 
 public class MainActivity extends AppCompatActivity {
 
